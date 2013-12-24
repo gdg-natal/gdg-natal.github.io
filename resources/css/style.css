@@ -918,3 +918,56 @@ fieldset {
         width: 120px
     }
 }
+
+
+.preto-section{
+    background-color: #000;
+}
+
+@media (min-width: 960px) {
+    .preto-section .event-formats {
+        overflow: hidden;
+        *zoom: 1;
+        margin-bottom: 24px
+    }
+
+    .preto-section .event-formats li {
+        float: left;
+        width: 33.33333%
+    }
+}
+
+.preto-section .event-formats h3 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 12px
+}
+
+.preto-section .event-formats p {
+    padding: 0 24px;
+    text-align: justify
+}
+
+.preto-section .event-formats a {
+    margin: 12px 24px
+}
+
+.preto-section .event-formats a.inline {
+    margin: 0
+}
+
+.btn-inscreva-se{
+    text-align:center;
+}
+
+.btn-inscreva-se a{
+    font-size: 32px;
+    color:#FFFF3D
+}
+
+h1{
+    font-size: 32px;
+    padding-bottom: 10px;
+}
