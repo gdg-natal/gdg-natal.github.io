@@ -971,3 +971,29 @@ h1{
     font-size: 32px;
     padding-bottom: 10px;
 }
+
+.branco-section {
+    background-color:#FFF;
+    color: #000;
+}
+
+.branco-section .event-formats h3 {
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    padding: 12px 0;
+    margin-bottom: 12px
+}
+
+.branco-section .event-formats p {
+    padding: 0 24px;
+    text-align: justify
+}
+
+.branco-section .event-formats a {
+    margin: 12px 24px
+}
+
+.branco-section .event-formats a.inline {
+    margin: 0
+}
