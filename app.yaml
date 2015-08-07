@@ -9,9 +9,6 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
-- url: /dart-flight-school
-  static_dir: dart-flight-school
-
 - url: /resources
   static_dir: resources
 
