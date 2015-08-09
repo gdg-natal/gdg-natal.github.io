@@ -14,29 +14,30 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="resources/owl-carousel/owl.theme.css">
-    <!-- Bootstrap core CSS -->
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="http://getbootstrap.com/docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="header section opened">
-        <div class="logo closed">
+        <div class="logo closed z-depth-3">
             <div class="center">
-                <span class="nav closed"><a class="navigate" href="#home">HOME</a></span>
-                <span class="nav closed"><a class="navigate" href="#iniciativas">INICIATIVAS</a></span>
+                <span class="nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#home">HOME</a></span>
+                <span class="nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#iniciativas">INICIATIVAS</a></span>
                 <img src="resources/imgs/logo.png" alt="logo">
-                <span class="nav closed"><a class="navigate" href="#equipe">EQUIPE</a></span>
-                <span class="nav closed"><a class="navigate" href="#">CONTATO</a></span>
+                <span class="mobile menu"><i class="fa fa-bars"></i></span>
+                <span class="nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#equipe">EQUIPE</a></span>
+                <span class="nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#contato">CONTATO</a></span>
             </div>
             <div class="clear"></div>
         </div>
-        <h1 class="title">Google Developers Group <br> <span class="light">Natal</span></h1>
+        <div class="mobile collapse-menu">
+            <span class="mobile nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#home">HOME</a></span>
+            <span class="mobile nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#iniciativas">INICIATIVAS</a></span>
+            <span class="mobile nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#equipe">EQUIPE</a></span>
+            <span class="mobile nav closed"><a class="navigate waves-effect waves-teal btn-flat" href="#contato">CONTATO</a></span>
+        </div>
+        <h1 class="title"><span class="desktop">Google Developers Group</span> <span class="mobile">GDG</span>  <br> <span class="light">Natal</span></h1>
         <div class="clear"></div>
         <div class="grid">
             <p class="presentation">
@@ -46,67 +47,163 @@
     </div>
     <div id="home" class="section main">
     </div>
-    <div id="iniciativas" class="section blue">
+    <div id="iniciativas" class="section">
         <div class="grid">
             <h2>Iniciativas da GDG</h2>
-            <div id="initiatives" class="owl-carousel">
-                <div class="item">
-                    <div class="initiative">
-                        <div class="thumb" style="background-image: url(https://lh5.googleusercontent.com/-nmIga8_6LMk/VWk0kSVwivI/AAAAAAAAAXg/vQ2413YkMkc/w780-h585-no/IMG_20150528_204246.jpg)"></div>
-                        <div class="label">
-                            <h2>Palestras</h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit numquam, est nisi aperiam, dolore accusantium unde ea porro. Expedita nemo consequatur architecto reiciendis, eum. Nisi, aliquam consequatur nobis laboriosam reprehenderit?
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card large z-depth-2">
+                        <div class="card-image">
+                            <img src="https://lh5.googleusercontent.com/-nmIga8_6LMk/VWk0kSVwivI/AAAAAAAAAXg/vQ2413YkMkc/w780-h585-no/IMG_20150528_204246.jpg">
+                            <span class="card-title">Palestras</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="card large z-depth-2">
+                        <div class="card-image">
+                            <img src="https://lh3.googleusercontent.com/-GsbfwSZ-ReE/VWsvnJUI29I/AAAAAAAAAbA/yI4may4n6OQ/w780-h585-no/IMG_20150530_091547.jpg">
+                            <span class="card-title">CodeLabs</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div id="equipe" class="section green">
+    <div id="equipe" class="section">
         <div class="grid">
             <h2>Nossa Equipe</h2>
-            <div class="col-1-4">
-                <div class="organizer">
-                    <div class="thumb" style="background-image: url(resources/imgs/organizers/tiago.jpg)"></div>
-                    <div class="label">
-                        <h2>Tiago Jesus</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos officiis impedit quibusdam magni fuga distinctio. Magnam unde, perspiciatis, numquam quas amet nulla voluptatibus voluptas, obcaecati saepe iure ab reiciendis, natus!</p>
+            <div class="row">
+                <div class="col s12 m3">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <img src="resources/imgs/organizers/tiago.jpg">
+                            <span class="card-title">Tiago Jesus</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="col s12 m4">
+                                    <a href="https://www.facebook.com/tiagojesusbr"><i class="fa fa-facebook"></i></a>
+                                </div>
+                                <div class="col s12 m4">
+                                    <a href="https://github.com/tiagojesus"><i class="fa fa-github"></i></a>
+                                </div>
+                                <div class="col s12 m4">
+                                    <a href="https://plus.google.com/+TiagoJesus"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <img src="resources/imgs/organizers/katyanna.jpg">
+                            <span class="card-title">Katyanna Moura</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="col s12 m4">
+                                    <a href="https://www.facebook.com/katyanna.moura"><i class="fa fa-facebook"></i></a>
+                                </div>
+                                <div class="col s12 m4">
+                                    <a href="https://github.com/katyanna"><i class="fa fa-github"></i></a>
+                                </div>
+                                <div class="col s12 m4">
+                                    <a href="https://plus.google.com/+KatyannaMoura"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <img src="resources/imgs/organizers/jefferson.jpg">
+                            <span class="card-title">Jefferson Moura</span>
+                        </div>
+                        <div class="card-content">
+                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                        </div>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="col s12 m4">
+                                    <a href="https://www.facebook.com/jeffersonmouraamador"><i class="fa fa-facebook"></i></a>
+                                </div>
+                                <div class="col s12 m4">
+                                    <a href="https://github.com/jeffersonmourak/"><i class="fa fa-github"></i></a>
+                                </div>
+                                <div class="col s12 m4">
+                                    <a href="https://plus.google.com/+JeffersonMourak/"><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m3">
+                    <div class="card z-depth-2">
+                        <div class="card-image">
+                            <img src="resources/imgs/organizers/you.jpg">
+                            <span class="card-title">Você</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Venha fazer parte da nossa equipe você também</p>
+                        </div>
                     </div>
                 </div>
             </div>
-    
-            <div class="col-1-4">
-                <div class="organizer">
-                    <div class="thumb" style="background-image: url(resources/imgs/organizers/katyanna.jpg)"></div>
-                    <div class="label">
-                        <h2>Katyanna Moura</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos officiis impedit quibusdam magni fuga distinctio. Magnam unde, perspiciatis, numquam quas amet nulla voluptatibus voluptas, obcaecati saepe iure ab reiciendis, natus!</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-1-4">
-                <div class="organizer">
-                    <div class="thumb" style="background-image: url(resources/imgs/organizers/jefferson.jpg)"></div>
-                    <div class="label">
-                        <h2>Jefferson Moura</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos officiis impedit quibusdam magni fuga distinctio. Magnam unde, perspiciatis, numquam quas amet nulla voluptatibus voluptas, obcaecati saepe iure ab reiciendis, natus!</p>
-                    </div>
-                </div>
-            </div>
-
-             <div class="col-1-4">
-                <div class="organizer">
-                    <div class="thumb" style="background-image: url(resources/imgs/organizers/you.jpg)"></div>
-                    <div class="label">
-                        <h2>Você</h2>
-                        <p>Venha fazer parte dessa equipe você também</p>
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
+    <footer id="contato">
+        <div class="grid">
+            <div class="row">
+                <div class="col s12 m4">
+                    <table class="responsive-table">
+                        <thead>
+                            <tr>
+                                <th data-field="id">
+                                    <h4>Nossas Redes Sociais</h4></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="https://plus.google.com/+Gdgnatal-rn/" target="_blank" class="waves-effect waves-teal btn-flat">Google+</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://github.com/gdg-natal" target="_blank" class="waves-effect waves-teal btn-flat">GitHub</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#" target="_blank" class="waves-effect waves-teal btn-flat">Facebook</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col s12 m8">
+                    <div class="col s12 m4">
+                        <img src="http://gdgsp.org/img/gdg-square.png" alt="GDG">
+                    </div>
+                    <div class="col s12 m8">
+                        <h4>Sobre o Google Developers Group</h4>
+                        <p>O Google Developers Group é uma iniciativa de pessoas interessadas em construir com tecnologia e disseminar o conhecimento. Nossos eventos são direcionados para a comunidade de desenvolvedores, engenheiros, designers e empreendedores, organizados pelos nossos membros de forma voluntária e sem fins lucrativos. Encontre outros capítulos do GDG no <a href="https://developers.google.com/groups/">Google Developers</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="resources/js/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
     <script src="resources/owl-carousel/owl.carousel.js"></script>
     <script src="resources/js/ui.js"></script>
 </body>

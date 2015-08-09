@@ -88,9 +88,15 @@
         	
         	var scrollPosition = $(target).offset().top;
 
-        	$('body').animate({scrollTop:scrollPosition},300);
+        	$('body').animate({scrollTop:scrollPosition - 40},300);
 
+            $(".mobile.collapse-menu").hide();
 
+        });
+
+        $(".mobile.menu").click(function(e){
+            e.preventDefault();
+            $(".mobile.collapse-menu").toggle();
         });
 
     });

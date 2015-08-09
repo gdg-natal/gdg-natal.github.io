@@ -6,28 +6,12 @@ body {
     width: 100%;
     min-height: 100vh;
     padding-top: 80px;
+    background-color: #EFEFEF;
 }
 
 .section h2 {
     text-align: center;
     font-size: 40px;
-    color: #fff;
-}
-
-.section.yellow h2 {
-    color: #000;
-}
-
-.green {
-    background-color: #4DCC79;
-}
-
-.yellow {
-    background-color: #F3DC5A;
-}
-
-.blue {
-    background-color: #7196E2;
 }
 
 .section.main {
@@ -57,7 +41,7 @@ body {
     width: 100%;
     height: 60px;
     border-radius: 0;
-    margin-top: 0;
+    margin-top: -15px;
     padding: 0;
 }
 
@@ -99,7 +83,7 @@ body {
 .logo .nav {
     display: block;
     float: left;
-    margin: 0 10px;
+    margin: 0;
     overflow: hidden;
     height: 60px;
 }
@@ -143,6 +127,10 @@ body {
     color: #fff;
 }
 
+.title *{
+    color: #fff;
+}
+
 .presentation {
     color: #fff !important;
     margin-top: calc(50vh - 150px);
@@ -180,28 +168,111 @@ body {
     text-align: left;
 }
 
-.organizer {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 30px 10px 0 10px;
+.navigate {
+    margin: 0 !important;
+    padding: 0 10px !important;
+    height: 60px !important;
 }
 
-.organizer .label, .organizer .label h2{
-    color: #000;
+footer {
+    background-color: #455A64;
 }
 
-.organizer .label h2{
-    font-size: 25px;
+footer h4,
+footer p {
+    color: #fff;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
     margin-top: 20px;
 }
 
-.organizer .thumb {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto;
+footer td {
+    padding: 0;
+}
+
+footer tr:first-child>td {
+    padding-top: 15px;
+}
+
+footer a.btn-flat {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 40px;
+}
+
+.card-action .row {
+    text-align: center;
+}
+
+.mobile {
+    display: none;
+}
+
+@media handheld,only screen and (max-width: 420px) {
+    .presentation {
+        padding: 0 10px;
+        margin-top: 60px;
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .logo{
+        width: 200px;
+        height: 200px;
+        margin: calc(50vh - 100px) auto;
+    }
+    
+    .header.opened .logo .mobile{
+        display: none;
+    }
+
+    .header.closed .logo .mobile{
+        display: block;
+    }
+
+    .logo .nav a {
+        display: none;
+    }
+    .mobile, .mobile.nav {
+        display: block;
+    }
+    .menu {
+        font-size: 40px;
+        padding: 10px 0px;
+        float: left;
+        margin: 0;
+        overflow: hidden;
+        height: 60px;
+    }
+    .desktop{
+        display: none;
+    }
+    .title{
+        line-height: 56%;
+    }
+}
+
+
+.mobile.collapse-menu {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 43px;
+    z-index: 9999999;
+    position: fixed;
+    display: none;
+}
+
+a.navigate.waves-effect.waves-teal.btn-flat {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 700;
 }
