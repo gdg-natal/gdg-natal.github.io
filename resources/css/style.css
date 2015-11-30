@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Product Sans', Arial, sans-serif;
 }
 
 .section {
@@ -129,6 +130,7 @@ body {
 
 .title *{
     color: #fff;
+    font-family: 'Product Sans', Arial, sans-serif;
 }
 
 .presentation {
@@ -246,10 +248,19 @@ footer a.btn-flat {
     .menu {
         font-size: 40px;
         padding: 10px 0px;
-        float: left;
-        margin: 0;
+        float: right;
+        margin: 0 10px 0 0;
         overflow: hidden;
         height: 60px;
+    }
+    .name{
+        font-size: 25px;
+        line-height: 60px;
+        height: 60px;
+        display: block;
+        width: 180px;
+        float: left;
+        text-align: left;
     }
     .desktop{
         display: none;

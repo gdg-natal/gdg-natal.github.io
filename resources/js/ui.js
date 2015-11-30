@@ -45,7 +45,7 @@
             'overflow': 'hidden',
             'height': '100%'
         });
-
+        $(".presentation").css("opacity","0");
         animation.timeLine = {
             300: function() {
                 animation.set(".logo", "bounce");
@@ -71,6 +71,7 @@
                 $(".logo").css("position", "fixed");
                 $(".nav").removeClass("opened");
                 $(".title").css("display", "none");
+                $(".presentation").css("opacity","1");
             }
 
         }
