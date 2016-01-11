@@ -1,0 +1,3 @@
+<div class="header section opened">
+  {% include menu.html %}
+</div>
