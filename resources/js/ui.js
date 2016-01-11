@@ -58,6 +58,8 @@
             1000: function() {
                 $(".header").removeClass("openend");
                 $(".header").addClass("closed");
+                $(".section.main").removeClass("openend");
+                $(".section.main").addClass("closed");
                 $(".nav").addClass("opened");
                 $(".nav").removeClass("closed");
                 $(".header").css("position", "absolute");

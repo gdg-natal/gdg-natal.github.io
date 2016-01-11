@@ -28,13 +28,14 @@ body {
     margin-top: 0px;
     padding-top: 0px;
     z-index: 9999999999999;
+    background-color: transparent;
 }
 
-.header.opened {
+.section.main.opened {
     background-color: rgba(31, 141, 69, 0.49);
 }
 
-.header.closed {
+.section.main.closed {
     background-color: rgba(0, 0, 0, 0.49);
 }
 
@@ -286,4 +287,9 @@ a.navigate.waves-effect.waves-teal.btn-flat {
     text-align: center;
     line-height: 60px;
     font-weight: 700;
+}
+
+.header.section.closed {
+    height: 60px !important;
+    min-height: 60px;
 }
