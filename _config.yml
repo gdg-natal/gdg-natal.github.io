@@ -1,0 +1,41 @@
+markdown: redcarpet
+highlighter: pygments
+
+title: "GDG Natal"
+description: "Google Developer Group situado em Natal-RN Brasil"
+
+permalink: /:title/
+
+links:
+  - title: Home
+      url: /#home
+  - title: Iniciativas
+    url: /#iniciativas
+  - title: Equipe
+    url: /#equipe
+  - title: Blog
+    url: /Blog
+  - title: Contato
+    url: /#contato
+
+url: "http://gdgnatal.com"
+domain: "gdgnatal.com"
+
+social:
+  - google_plus:
+      url: https://plus.google.com/+Gdgnatal-rn/ 
+      desc: Adicione no  google+
+  - github:
+      url:  https://github.com/gdg-natal
+      desc: Fork me on github
+  - facebook:
+      url:  https://facebook.com/gdgnatal
+      desc: Curta nossa página no Facebook
+  - chapter:
+      title: GDG Natal Chapter
+      url: https://developers.google.com/groups/chapter/111142392900301029730/
+      desc: Conheça nosso grupo
+
+ga: UA-54337910-4
+
+exclude: ['package.json', 'src', 'node_modules']
