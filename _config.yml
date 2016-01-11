@@ -8,7 +8,7 @@ permalink: /:title/
 
 links:
   - title: Home
-      url: /#home
+    url: /#home
   - title: Iniciativas
     url: /#iniciativas
   - title: Equipe
