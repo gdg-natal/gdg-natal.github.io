@@ -4,7 +4,8 @@ highlighter: pygments
 title: "GDG Natal"
 description: "Google Developer Group situado em Natal-RN Brasil"
 
-permalink: /:title/
+permalink: /blog/:year/:month/:day/:title/
+baseurl: ""
 
 links:
   - title: Home
