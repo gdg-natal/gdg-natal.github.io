@@ -1,295 +1,299 @@
 body {
-    /*font-family: 'Roboto', sans-serif;*/
-    font-family: 'Product Sans', Arial, sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Product Sans', Arial, sans-serif;
 }
 
 .section {
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 80px;
-    background-color: #EFEFEF;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 80px;
+  background-color: #EFEFEF;
 }
 
 .section h2 {
-    text-align: center;
-    font-size: 40px;
+  text-align: center;
+  font-size: 40px;
 }
 
 .section.main {
-    background-image: url(../imgs/background.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    background-size: cover;
-    padding-top: 0px;
+  background-image: url(../imgs/background.jpg);
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-top: 0px;
 }
 
 .header {
-    position: fixed;
-    margin-top: 0px;
-    padding-top: 0px;
-    z-index: 9999999999999;
-    background-color: transparent;
+  position: fixed;
+  margin-top: 0px;
+  padding-top: 0px;
+  z-index: 9999999999999;
+  background-color: transparent;
 }
 
 .section.main.opened {
-    background-color: rgba(31, 141, 69, 0.49);
+  background-color: rgba(31, 141, 69, 0.49);
 }
 
 .section.main.closed {
-    background-color: rgba(0, 0, 0, 0.49);
+  background-color: rgba(0, 0, 0, 0.49);
 }
 
 .header.closed .logo {
-    width: 100%;
-    height: 60px;
-    border-radius: 0;
-    margin-top: -15px;
-    padding: 0;
+  width: 100%;
+  height: 60px;
+  border-radius: 0;
+  margin-top: -15px;
+  padding: 0;
 }
 
 .logo.closed {
-    transform: scale(0);
+  transform: scale(0);
 }
 
 .logo.up {
-    margin: calc(50vh - 250px) auto;
+  margin: calc(50vh - 250px) auto;
 }
 
 .logo {
-    width: 300px;
-    height: 300px;
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 20px;
-    padding-left: 30px;
-    text-align: center;
-    margin: calc(50vh - 150px) auto;
-    overflow: hidden;
-    transform: scale(1);
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 20px;
+  padding-left: 30px;
+  text-align: center;
+  margin: calc(50vh - 150px) auto;
+  overflow: hidden;
+  transform: scale(1);
 }
 
 .logo .center {
-    display: block;
-    margin: 0 auto;
-    height: 100%;
-    width: 409px;
+  display: block;
+  margin: 0 auto;
+  height: 100%;
+  width: 409px;
 }
 
 .logo img {
-    height: 100%;
-    width: auto;
-    display: inline-block;
-    float: left;
+  height: 100%;
+  width: auto;
+  display: inline-block;
+  float: left;
 }
 
 .logo .nav {
-    display: block;
-    float: left;
-    margin: 0;
-    overflow: hidden;
-    height: 60px;
+  display: block;
+  float: left;
+  margin: 0;
+  overflow: hidden;
+  height: 60px;
 }
 
 .logo .nav.opened {
-    height: 22px;
-    display: block;
+  height: 22px;
+  display: block;
 }
 
 .logo .nav.closed {
-    display: none;
+  display: none;
 }
 
 .logo .nav a {
-    line-height: 60px;
-    display: block;
+  line-height: 60px;
+  display: block;
 }
 
 .anim-ease {
-    transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 
 .anim-none {
-    transition: all 0s ease;
+  transition: all 0s ease;
 }
 
 .anim-bounce {
-    transition: all 500ms cubic-bezier(1, 0.07, 0.35, 1.43);
+  transition: all 500ms cubic-bezier(1, 0.07, 0.35, 1.43);
 }
 
 .title .light {
-    font-weight: 100;
-    color: #ddd;
+  font-weight: 100;
+  color: #ddd;
 }
 
 .title {
-    text-align: center;
-    margin-top: 70px;
-    font-size: 50px;
-    font-weight: 500;
-    color: #fff;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #fff;
 }
 
 .title *{
-    color: #fff;
-    font-family: 'Product Sans', Arial, sans-serif;
+  color: #fff;
+  font-family: 'Product Sans', Arial, sans-serif;
 }
 
 .presentation {
-    color: #fff !important;
-    margin-top: calc(50vh - 150px);
-    font-size: 21px;
-    padding: 0 90px;
+  color: #fff !important;
+  margin-top: calc(50vh - 150px);
+  font-size: 21px;
+  padding: 0 90px;
 }
 
 .presentation .title-present {
-    font-size: 40px;
-    text-align: center;
-    color: #fff;
-    display: block;
-    margin-bottom: 20px;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  margin-bottom: 20px;
 }
 
 .initiative {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    margin: 60px 0;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 60px 0;
 }
 
 .initiative .thumb {
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 40px;
-    width: 100%;
-    height: 400px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 400px;
 }
 
 .initiative .label,
 .initiative .label h2 {
-    color: #000;
-    text-align: left;
+  color: #000;
+  text-align: left;
 }
 
 .navigate {
-    margin: 0 !important;
-    padding: 0 10px !important;
-    height: 60px !important;
+  margin: 0 !important;
+  padding: 0 10px !important;
+  height: 60px !important;
 }
 
 footer {
-    background-color: #455A64;
+  background-color: #455A64;
 }
 
 footer h4,
 footer p {
-    color: #fff;
+  color: #fff;
 }
 
 footer img {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
 }
 
 footer td {
-    padding: 0;
+  padding: 0;
 }
 
 footer tr:first-child>td {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 footer a.btn-flat {
-    width: 100%;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    color: #fff;
-    line-height: 40px;
+  width: 100%;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+}
+
+#blog, #blog-post {
+  margin-top: 60px;
 }
 
 .card-action .row {
-    text-align: center;
+  text-align: center;
 }
 
 .mobile {
-    display: none;
+  display: none;
 }
 
 @media handheld,only screen and (max-width: 420px) {
-    .presentation {
-        padding: 0 10px;
-        margin-top: 60px;
-        font-size: 17px;
-        text-align: justify;
-    }
+  .presentation {
+    padding: 0 10px;
+    margin-top: 60px;
+    font-size: 17px;
+    text-align: justify;
+  }
 
-    .logo{
-        width: 200px;
-        height: 200px;
-        margin: calc(50vh - 100px) auto;
-    }
-    
-    .header.opened .logo .mobile{
-        display: none;
-    }
+  .logo{
+    width: 200px;
+    height: 200px;
+    margin: calc(50vh - 100px) auto;
+  }
 
-    .header.closed .logo .mobile{
-        display: block;
-    }
+  .header.opened .logo .mobile{
+    display: none;
+  }
 
-    .logo .nav a {
-        display: none;
-    }
-    .mobile, .mobile.nav {
-        display: block;
-    }
-    .menu {
-        font-size: 40px;
-        padding: 10px 0px;
-        float: right;
-        margin: 0 10px 0 0;
-        overflow: hidden;
-        height: 60px;
-    }
-    .name{
-        font-size: 25px;
-        line-height: 60px;
-        height: 60px;
-        display: block;
-        width: 180px;
-        float: left;
-        text-align: left;
-    }
-    .desktop{
-        display: none;
-    }
-    .title{
-        line-height: 56%;
-    }
+  .header.closed .logo .mobile{
+    display: block;
+  }
+
+  .logo .nav a {
+    display: none;
+  }
+  .mobile, .mobile.nav {
+    display: block;
+  }
+  .menu {
+    font-size: 40px;
+    padding: 10px 0px;
+    float: right;
+    margin: 0 10px 0 0;
+    overflow: hidden;
+    height: 60px;
+  }
+  .name{
+    font-size: 25px;
+    line-height: 60px;
+    height: 60px;
+    display: block;
+    width: 180px;
+    float: left;
+    text-align: left;
+  }
+  .desktop{
+    display: none;
+  }
+  .title{
+    line-height: 56%;
+  }
 }
 
 
 .mobile.collapse-menu {
-    width: 100%;
-    height: auto;
-    background-color: #fff;
-    margin-top: 43px;
-    z-index: 9999999;
-    position: fixed;
-    display: none;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-top: 43px;
+  z-index: 9999999;
+  position: fixed;
+  display: none;
 }
 
 a.navigate.waves-effect.waves-teal.btn-flat {
-    width: 100%;
-    text-align: center;
-    line-height: 60px;
-    font-weight: 700;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  font-weight: 700;
 }
 
 .header.section.closed {
-    height: 60px !important;
-    min-height: 60px;
+  height: 60px !important;
+  min-height: 60px;
 }
