@@ -43,100 +43,32 @@ layout: default
   <div class="grid">
     <h2>Nossa Equipe</h2>
     <div class="row">
+      {% for dev in site.team %}
       <div class="col s12 m3">
         <div class="card z-depth-2">
           <div class="card-image">
-            <img src="resources/imgs/organizers/hudson.jpg">
-            <span class="card-title">Hudson Brendon</span>
+            <img src="{{ dev.photo }}">
+            <span class="card-title">{{ dev.name }}</span>
           </div>
           <div class="card-content">
-            <p>23 anos, formado em Redes de Computadores pelo IFRN e atualmente cursando Análise e Desenvolvimento de Sistemas na UFRN. Tenho experiência nas áreas de desenvolvimento web e administração de redes.</p>
+            <p>{{ dev.desc }}</p>
           </div>
           <div class="card-action">
             <div class="row">
               <div class="col s12 m4">
-                <a href="https://www.facebook.com/hudson.brendon"><i class="fa fa-facebook"></i></a>
+                <a href="{{ dev.facebook }}"><i class="fa fa-facebook"></i></a>
               </div>
               <div class="col s12 m4">
-                <a href="https://github.com/hudsonbrendon"><i class="fa fa-github"></i></a>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m3">
-        <div class="card z-depth-2">
-          <div class="card-image">
-            <img src="resources/imgs/organizers/garu.jpg">
-            <span class="card-title">Bruno Henrique</span>
-          </div>
-          <div class="card-content">
-            <p>Engenheiro de software, palestrante e grande entusiasta do Open Source, Arquitetura de Software, Testes, Sistemas Distribuídos, Big Data, Inteligência Artificial e Machine Learning. Hoje trabalho como Engenheiro de software sênior usando Go (Golang), mas a maior parte do meu trabalho anterior foi com Ruby e Rails.</p>
-          </div>
-          <div class="card-action">
-            <div class="row">
-              <div class="col s12 m4">
-                <a href="https://www.facebook.com/brunogaru"><i class="fa fa-facebook"></i></a>
+                <a href="{{ dev.github }}"><i class="fa fa-github"></i></a>
               </div>
               <div class="col s12 m4">
-                <a href="https://github.com/brunohenrique"><i class="fa fa-github"></i></a>
-              </div>
-              <div class="col s12 m4">
-                <a href="https://plus.google.com/+BrunoHenriqueGaru/posts"><i class="fa fa-google-plus"></i></a>
+                <a href="{{ dev.plus }}"><i class="fa fa-google-plus"></i></a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col s12 m3">
-        <div class="card z-depth-2">
-          <div class="card-image">
-            <img src="resources/imgs/organizers/jefferson.jpg">
-            <span class="card-title">Jefferson Moura</span>
-          </div>
-          <div class="card-content">
-            <p>Front-end Developer, Auto-didata e palestrante, Fã do AngularJS, Hoje sou Front-end com foco em performance de dados e de layout, apaixonado por UI/UX estou sempre procurando métodos de melhorar a interfaçe dos projetos.</p>
-          </div>
-          <div class="card-action">
-            <div class="row">
-              <div class="col s12 m4">
-                <a href="https://www.facebook.com/jeffersonmouraamador"><i class="fa fa-facebook"></i></a>
-              </div>
-              <div class="col s12 m4">
-                <a href="https://github.com/jeffersonmourak/"><i class="fa fa-github"></i></a>
-              </div>
-              <div class="col s12 m4">
-                <a href="https://plus.google.com/+JeffersonMourak/"><i class="fa fa-google-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col s12 m3">
-        <div class="card z-depth-2">
-          <div class="card-image">
-            <img src="resources/imgs/organizers/ozifrankly.jpg">
-            <span class="card-title">Ozifrankly Lima da Silva</span>
-          </div>
-          <div class="card-content">
-            <p>Bacharel em Ciências da computação pela UFRN gosto de desenvolver softwares que facilitam a nossa vida e de aprender algo novo, principalmente linguagens de programação. Áreas de interesse: Sistemas web, sistemas embarcados, design de software e tdd. </p>
-          </div>
-          <div class="card-action">
-            <div class="row">
-              <div class="col s12 m4">
-                <a href="https://facebook/ozifranklygithub/ozifrankly"><i class="fa fa-facebook"></i></a>
-              </div>
-              <div class="col s12 m4">
-                <a href="https://github.com/ozifrankly"><i class="fa fa-github"></i></a>
-              </div>
-              <div class="col s12 m4">
-                <a href="https://plus.google.com/u/0/+OzifranklySilva/post"><i class="fa fa-google-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
       <div class="col s12 m3">
         <div class="card z-depth-2">
           <div class="card-image">
