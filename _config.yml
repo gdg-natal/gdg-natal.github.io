@@ -23,19 +23,18 @@ url: "http://gdgnatal.com"
 domain: "gdgnatal.com"
 
 social:
-  - google_plus:
-      url: https://plus.google.com/+Gdgnatal-rn/ 
-      desc: Adicione no  google+
-  - github:
-      url:  https://github.com/gdg-natal
-      desc: Fork me on github
-  - facebook:
-      url:  https://facebook.com/gdgnatal
-      desc: Curta nossa página no Facebook
-  - chapter:
-      title: GDG Natal Chapter
-      url: https://developers.google.com/groups/chapter/111142392900301029730/
-      desc: Conheça nosso grupo
+  - desc: GOOGLE PLUS
+    url: https://plus.google.com/+Gdgnatal-rn/ 
+    title: Adicione no  google+
+  - desc: GITHUB
+    url:  https://github.com/gdg-natal
+    title: Fork me on github
+  - desc: FACEBOOK
+    url:  https://facebook.com/gdgnatal
+    title: Curta nossa página no Facebook
+  - desc: GDG Natal Chapter
+    url: https://developers.google.com/groups/chapter/111142392900301029730/
+    title: Conheça nosso grupo
 
 ga: UA-54337910-4
 

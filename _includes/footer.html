@@ -10,21 +10,16 @@
             </tr>
           </thead>
           <tbody>
+            {% for social in site.social %}
             <tr>
-              <td><a href="https://plus.google.com/+Gdgnatal-rn/" target="_blank" class="waves-effect waves-teal btn-flat">Google+</a></td>
+              <td>
+                <a href="{{ social.url }}" target="_blank" class="waves-effect
+                waves-teal btn-flat" title="{{ social.title }}">
+                  {{ social.desc }}
+                </a>
+              </td>
             </tr>
-            <tr>
-              <td><a href="https://github.com/gdg-natal" target="_blank" class="waves-effect waves-teal btn-flat">GitHub</a></td>
-            </tr>
-            <tr>
-              <td><a href="#" target="_blank" class="waves-effect waves-teal btn-flat">Facebook</a></td>
-            </tr>
-
-            <tr>
-              <td><a href="https://goo.gl/jp6EJX" target="_blank" class="waves-effect waves-teal btn-flat">GDG Natal Chapter</a></td>
-            </tr>
-
-
+            {% endfor %}
           </tbody>
         </table>
       </div>
