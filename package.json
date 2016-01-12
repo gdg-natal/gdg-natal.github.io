@@ -1,0 +1,22 @@
+{
+  "name": "gdg-natal.github.io",
+  "version": "1.0.0",
+  "description": "GDG Natal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdg-natal/gdg-natal.github.io.git"
+  },
+  "author": "Henri Cavalcante",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdg-natal/gdg-natal.github.io/issues"
+  },
+  "homepage": "https://github.com/gdg-natal/gdg-natal.github.io#readme",
+  "dependencies": {
+    "materialize-css": "^0.97.5"
+  }
+}
