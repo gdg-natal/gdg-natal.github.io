@@ -297,3 +297,8 @@ a.navigate.waves-effect.waves-teal.btn-flat {
   height: 60px !important;
   min-height: 60px;
 }
+
+.card-content-membros {
+    min-height: 227px;
+    max-height: 227px;
+}
