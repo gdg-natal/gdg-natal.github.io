@@ -38,4 +38,4 @@ social:
 
 ga: UA-54337910-4
 
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ['gruntfile.js', 'package.json', 'src', 'node_modules']
