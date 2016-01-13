@@ -75,5 +75,9 @@ team:
     facebook: https://www.facebook.com/tiagojesusbr
     github: https://github.com/tiagojesus/
     plus: https://plus.google.com/+Tiagojesus
+  - name: Roger Araújo
+    desc: Engenheiro de software, apoiador do software livre e do código aberto e apreciador da tecnologia em geral. Meus temas preferidos são desempenho e escalabilidade.
+    facebook: https://www.facebook.com/roger.araujo.507
+    github: https://github.com/RogerAraujo
 
 exclude: ['gruntfile.js', 'package.json', 'src', 'node_modules']
