@@ -69,5 +69,16 @@ team:
     facebook: https://www.facebook.com/brunogaru
     github: https://github.com/brunohenrique
     plus: https://plus.google.com/+BrunoHenriqueGaru/posts
+  - name: Roger Araújo
+    photo: https://avatars0.githubusercontent.com/u/6307375?v=3&s=460
+    desc: Engenheiro de software, apoiador do software livre e do código aberto e apreciador da tecnologia em geral. Meus temas preferidos são desempenho e escalabilidade.
+    facebook: https://www.facebook.com/roger.araujo.507
+    github: https://github.com/RogerAraujo
+  - name: Tiago Jesus
+    photo: https://avatars1.githubusercontent.com/u/264711?v=3&s=460
+    desc: Um apaixonado por Deus, Iva, Musica e Tecnologia (principalmente linguagem de Programação Java, JavaScript e afins, Python e Dart com foco WEB). Sempre querendo adquiri novos conhecimentos e compartilha-los. Lema ´Tecnologia não é religião e sim ferramenta.´
+    facebook: https://www.facebook.com/tiagojesusbr
+    github: https://github.com/tiagojesus/
+    plus: https://plus.google.com/+Tiagojesus
 
 exclude: ['gruntfile.js', 'package.json', 'src', 'node_modules']
