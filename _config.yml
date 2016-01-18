@@ -52,19 +52,19 @@ team:
     github: https://github.com/hudsonbrendon
     plus: https://plus.google.com/u/0/116189383737787140965/
   - name: Jefferson Moura
-    photo: resources/imgs/organizers/jefferson.jpg
+    photo: /resources/imgs/organizers/jefferson.jpg
     desc: Front-end Developer, Auto-didata e palestrante, Fã do AngularJS, Hoje sou Front-end com foco em performance de dados e de layout, apaixonado por UI/UX estou sempre procurando métodos de melhorar a interfaçe dos projetos.
     facebook: https://www.facebook.com/jeffersonmouraamador
     github: https://github.com/jeffersonmourak/
     plus: https://plus.google.com/+JeffersonMourak/
   - name: Ozifrankly Silva
-    photo: resources/imgs/organizers/ozifrankly.jpg
+    photo: /resources/imgs/organizers/ozifrankly.jpg
     desc: "Bacharel em Ciências da computação pela UFRN gosto de desenvolver softwares que facilitam a nossa vida e de aprender algo novo, principalmente linguagens de programação. Áreas de interesse: Sistemas web, sistemas embarcados, design de software e tdd."
     facebook: https://www.facebook.com/ozifrankly
     github: https://github.com/ozifrankly
     plus: https://plus.google.com/u/0/+OzifranklySilva/post
   - name: Bruno Henrique
-    photo: resources/imgs/organizers/garu.jpg
+    photo: /resources/imgs/organizers/garu.jpg
     desc: Engenheiro de software, palestrante e grande entusiasta do Open Source, Arquitetura de Software, Testes, Sistemas Distribuídos, Big Data, Inteligência Artificial e Machine Learning. Hoje trabalho como Engenheiro de software sênior usando Go (Golang), mas a maior parte do meu trabalho anterior foi com Ruby e Rails.
     facebook: https://www.facebook.com/brunogaru
     github: https://github.com/brunohenrique

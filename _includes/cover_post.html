@@ -1,0 +1,21 @@
+<div class="cover" style="background-image: url({{post.cover}});"></div>
+<div class="content">
+	<h3><a class="waves-effect waves-teal" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+	<div class="post-cotent">
+		{{ post.content | truncatewords:20 }}
+	    <br>
+	    <div class="author">
+	    {% for dev in site.team %}
+	      {% if dev.name == post.author %}
+	        <div class="photo" style="background-image: url({{ dev.photo }})"></div>
+	      {% endif %}
+	    {% endfor %}
+	      {{ post.author }} | <time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date: "%d %B %Y" }} </time>
+	    </div>
+	</div>
+	<div class="tags">
+      {% for tag in post.tags %}
+      <a class="waves-effect waves-teal" href="/tags/#{{tag}}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+</div>

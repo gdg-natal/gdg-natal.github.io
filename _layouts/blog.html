@@ -2,11 +2,15 @@
 <html lang="en">
 
   {% include head.html %}
-  <body>
+  <body class="blog">
     {% include menu_blog.html %}
     {{ content }}
     {% include footer.html %}
     {% include scripts.html %}
+    <script>
+      AnimationConfig.disableTimeline = true;
+    	AnimationConfig.animate = false;
+    </script>
   </body>
 
 </html>

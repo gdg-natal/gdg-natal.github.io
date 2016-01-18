@@ -65,7 +65,7 @@ module.exports = function (grunt) {
     watch: {
       dev_site: {
         files: CSS.concat(JS),
-        tasks: ['concat_css:site', 'concat:site']
+        tasks: ['cssmin:site', 'uglify:site']
       }
     }
   });

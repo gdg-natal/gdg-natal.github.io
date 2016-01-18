@@ -4,43 +4,16 @@ layout: blog
 
 <div id="blog" class="section">
   <div class="grid">
-    <h2>Blog</h2>
     <div class="row">
       {% for post in site.posts %}
-      <div class="col s12 m12">
+      <div class="col s12 m4">
         <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-          <div class="card large z-depth-2">
-            <div class="card-image">
-              <span class="card-title">
-                <div class="content">
-                  <a href="{{ post.url | prepend: site.baseurl }}">
-                    <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
-                  </a>
-                  <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
-                    <meta itemprop="datePublished" content="{{post.date}}">
-                    <time datetime="{{ post.date | date_to_xmlschema }}">
-                      <span class="day">
-                        {{ post.date | date: "%d" }}
-                      </span>
-                      <span class="month-year">
-                        {{ post.date | date: "%B %Y" }}
-                      </span>
-                    </time>
-                  </a>
-                </div>
-              </span>
-              <div class="card-content">
-                <p class="description">
-                {{ post.content | truncatewords:50 }}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="link">Leia mais sobre {{post.title}}</a>
-                </p>
-                <div class="tags">
-                  {% for tag in post.tags %}
-                  <a href="/tags/#{{tag}}">{{ tag }}</a>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
+          <div class="post card large z-depth-2">
+          {% if post.cover %}
+             {% include cover_post.html %}
+          {% else %}
+              {% include no_cover_post.html %}
+          {% endif %}
           </div>
         </article>
       </div>

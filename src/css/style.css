@@ -10,6 +10,10 @@ body {
   background-color: #EFEFEF;
 }
 
+.blog .section{
+  background-color: transparent;
+}
+
 .section h2 {
   text-align: center;
   font-size: 40px;
@@ -29,6 +33,17 @@ body {
   padding-top: 0px;
   z-index: 9999999999999;
   background-color: transparent;
+}
+
+body.blog .grid {
+    overflow: visible;
+}
+
+.blog .header{
+    min-height: 380px;
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    z-index: -1;
 }
 
 .section.main.opened {
@@ -68,11 +83,27 @@ body {
   transform: scale(1);
 }
 
+.blog .logo{
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+
 .logo .center {
   display: block;
   margin: 0 auto;
   height: 100%;
   width: 409px;
+}
+
+.blog .logo .center{
+  width: 150px;
+}
+
+.logo a{
+  display: inline-block;
+  width: 160px;
+  height: 160px;
 }
 
 .logo img {
@@ -210,8 +241,20 @@ footer a.btn-flat {
   line-height: 40px;
 }
 
-#blog, #blog-post {
-  margin-top: 60px;
+.space{
+  height: 280px;
+}
+
+#blog-post .card{
+  padding: 15px;
+}
+
+#blog-post .card h2{
+  margin-top: 0;
+}
+
+.post-categories li{
+  display: inline-block;
 }
 
 .card-action .row {
@@ -222,12 +265,20 @@ footer a.btn-flat {
   display: none;
 }
 
-@media handheld,only screen and (max-width: 420px) {
+@media handheld,only screen and (max-width: 600px) {
   .presentation {
     padding: 0 10px;
     margin-top: 60px;
     font-size: 17px;
     text-align: justify;
+  }
+  
+  table.responsive-table tbody {
+    width: 100% !important;
+  }
+
+  table.responsive-table tbody tr {
+    display: block !important;
   }
 
   .logo{
@@ -301,4 +352,65 @@ a.navigate.waves-effect.waves-teal.btn-flat {
 .card-content-membros {
     min-height: 227px;
     max-height: 227px;
+}
+
+
+.post.card.large{
+  height: auto !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.post .cover{
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+}
+
+.post .content{
+  padding: 10px;
+}
+
+.post .content h3 {
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content a {
+  padding: 5px;
+  border-radius: 2px;
+}
+
+.content .author {
+  color: #607D8B;
+  line-height: 30px;
+}
+
+.content .photo{
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.tags{
+  margin-top: 8px;
+}
+.tags a, .tags a time{
+  background-color: rgb(239, 239, 239);
+}
+
+.highlight pre {
+    overflow-y: hidden;
+}
+.highlight {
+    padding: 5px;
+    background-color: rgba(158, 158, 158, 0.21);
+    border-radius: 3px;
+}
+
+.post-cotent img{
+  width: 100%;
 }

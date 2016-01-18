@@ -1,13 +1,13 @@
 (function() {
     "use strict";
-
+    window['AnimationConfig'] = {};
     function Animation() {
         this.animations = {
             bounce: "anim-bounce",
             ease: "anim-ease",
             none: "anim-none"
         };
-
+        this.config = window['AnimationConfig'];
         this.timeLine = {};
     }
 
@@ -26,14 +26,23 @@
             $(selector).addClass(this.animations[animation]);
         },
         animate: function() {
-            var time = 0;
-            var self = this;
-            setInterval(function() {
-                if (self.timeLine[time] !== undefined) {
-                    self.timeLine[time]();
+            if(this.config.disableTimeline ===  undefined || this.config.disableTimeline === false){
+                if(this.config.animate === undefined || this.config.animate === true){
+                    var time = 0;
+                    var self = this;
+                    setInterval(function() {
+                        if (self.timeLine[time] !== undefined) {
+                            self.timeLine[time]();
+                        }
+                        time++;
+                    }, 1);
                 }
-                time++;
-            }, 1);
+                else{
+                    for(var i in this.timeLine){
+                        this.timeLine[i]();
+                    }
+                }
+            }
         }
     }
 
@@ -77,7 +86,12 @@
             }
 
         }
-
+        if(window['AnimationConfig'].disableTimeline === true){
+            $('html, body').css({
+                'overflow': 'auto',
+                'height': 'auto'
+            });
+        }
         animation.animate();
 
         $("#initiatives").owlCarousel({
