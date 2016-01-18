@@ -93,7 +93,7 @@ body.blog .grid {
   display: block;
   margin: 0 auto;
   height: 100%;
-  width: 409px;
+  width: 447px;
 }
 
 .blog .logo .center{
@@ -202,7 +202,7 @@ body.blog .grid {
   text-align: left;
 }
 
-.navigate {
+.navigate, .no-anchor {
   margin: 0 !important;
   padding: 0 10px !important;
   height: 60px !important;
@@ -337,11 +337,11 @@ footer a.btn-flat {
   display: none;
 }
 
-a.navigate.waves-effect.waves-teal.btn-flat {
-  width: 100%;
-  text-align: center;
-  line-height: 60px;
-  font-weight: 700;
+a.navigate.waves-effect.waves-teal.btn-flat, a.no-anchor.waves-effect.waves-teal.btn-flat {
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 700;
 }
 
 .header.section.closed {
