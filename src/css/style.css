@@ -265,6 +265,10 @@ footer a.btn-flat {
   display: none;
 }
 
+.card-team {
+  height: 550px;
+}
+
 @media handheld,only screen and (max-width: 600px) {
   .presentation {
     padding: 0 10px;
@@ -351,7 +355,6 @@ a.navigate.waves-effect.waves-teal.btn-flat, a.no-anchor.waves-effect.waves-teal
 
 .card-content-membros {
     min-height: 227px;
-    max-height: 227px;
 }
 
 
@@ -414,3 +417,5 @@ a.navigate.waves-effect.waves-teal.btn-flat, a.no-anchor.waves-effect.waves-teal
 .post-cotent img{
   width: 100%;
 }
+
+

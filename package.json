@@ -18,7 +18,6 @@
   "homepage": "https://github.com/gdg-natal/gdg-natal.github.io#readme",
   "dependencies": {
     "font-awesome": "^4.5.0",
-    "vinyl-fs": "2.2.0",
     "grunt": "^0.4.5",
     "grunt-contrib-cssmin": "^0.14.0",
     "grunt-contrib-imagemin": "^1.0.0",
@@ -26,6 +25,7 @@
     "grunt-contrib-watch": "^0.6.1",
     "jquery": "^2.2.0",
     "materialize-css": "^0.97.5",
-    "owlcarousel": "^1.3.3"
+    "owlcarousel": "^1.3.3",
+    "vinyl-fs": "2.2.0"
   }
 }
