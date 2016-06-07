@@ -1,4 +1,4 @@
-markdown: redcarpet
+markdown: kramdown
 
 title: "GDG Natal"
 description: "Google Developer Group situado em Natal-RN Brasil"
