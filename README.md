@@ -21,7 +21,7 @@ Para que o site funcione offline em sua máquina é necessário possuir o [Jekyl
 
 ```
 $ git clone https://github.com/gdg-natal/gdg-natal.github.io.git
-$ cd gdg-natal
+$ cd gdg-natal.github.io.git
 $ sudo npm install -g grunt-cli
 $ npm install
 $ grunt
