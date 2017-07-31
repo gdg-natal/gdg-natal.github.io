@@ -20,7 +20,7 @@ Lembre-se sempre de respeitar a identação.
 Para que o site funcione offline em sua máquina é necessário possuir o [Jekyll](https://jekyllrb.com/) e para compilar os arquivos JavaScript, CSS e imagens é necessário o [NodeJS](https://nodejs.org/).
 
 ```
-$ git clone https://github.com/gdg-natal.git
+$ git clone https://github.com/gdg-natal/gdg-natal.github.io.git
 $ cd gdg-natal
 $ sudo npm install -g grunt-cli
 $ npm install
