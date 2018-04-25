@@ -79,5 +79,12 @@ team:
     facebook: https://www.facebook.com/tiagojesusbr
     github: https://github.com/tiagojesus/
     plus: https://plus.google.com/+Tiagojesus
+  - name: Leonardo Ataide MINORA
+    photo: https://avatars.githubusercontent.com/leonardo-minora
+    desc: Um apaixonado por dev e tecnologia atualmente professor do IFRN-CNAT. No momento brincando com js e suas possibilides mobile e web. Nas horas livres fico com a família e amigos.
+    facebook: http://fb.me/leonardo.minora
+    github: http://github.com/leonardo-minora
+    plus: https://plus.google.com/u/0/+leonardominora
+
 
 exclude: ['gruntfile.js', 'package.json', 'src', 'node_modules']
