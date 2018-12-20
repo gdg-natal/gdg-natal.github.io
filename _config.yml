@@ -56,28 +56,5 @@ team:
     facebook: https://www.facebook.com/jeffersonmouraamador
     github: https://github.com/jeffersonmourak/
     plus: https://plus.google.com/+JeffersonMourak/
-  - name: Ozifrankly Silva
-    photo: /resources/imgs/organizers/ozifrankly.jpg
-    desc: "Bacharel em Ciências da computação pela UFRN gosto de desenvolver softwares que facilitam a nossa vida e de aprender algo novo, principalmente linguagens de programação. Áreas de interesse: Sistemas web, sistemas embarcados, design de software e tdd."
-    facebook: https://www.facebook.com/ozifrankly
-    github: https://github.com/ozifrankly
-    plus: https://plus.google.com/u/0/+OzifranklySilva/post
-  - name: Bruno Henrique
-    photo: /resources/imgs/organizers/garu.jpg
-    desc: Engenheiro de software, palestrante e grande entusiasta do Open Source, Arquitetura de Software, Testes, Sistemas Distribuídos, Big Data, Inteligência Artificial e Machine Learning. Hoje trabalho como Engenheiro de software sênior usando Go (Golang), mas a maior parte do meu trabalho anterior foi com Ruby e Rails.
-    facebook: https://www.facebook.com/brunogaru
-    github: https://github.com/brunohenrique
-    plus: https://plus.google.com/+BrunoHenriqueGaru/posts
-  - name: Roger Araújo
-    photo: https://avatars0.githubusercontent.com/u/6307375?v=3&s=460
-    desc: Engenheiro de software, apoiador do software livre e do código aberto e apreciador da tecnologia em geral. Meus temas preferidos são desempenho e escalabilidade.
-    facebook: https://www.facebook.com/roger.araujo.507
-    github: https://github.com/RogerAraujo
-  - name: Tiago Jesus
-    photo: https://avatars1.githubusercontent.com/u/264711?v=3&s=460
-    desc: Um apaixonado por Deus, Iva, Musica e Tecnologia (principalmente linguagem de Programação Java, JavaScript e afins, Python e Dart com foco WEB). Sempre querendo adquiri novos conhecimentos e compartilha-los. Lema ´Tecnologia não é religião e sim ferramenta.´
-    facebook: https://www.facebook.com/tiagojesusbr
-    github: https://github.com/tiagojesus/
-    plus: https://plus.google.com/+Tiagojesus
 
 exclude: ['gruntfile.js', 'package.json', 'src', 'node_modules']
