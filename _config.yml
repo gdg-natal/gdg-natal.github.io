@@ -56,5 +56,11 @@ team:
     facebook: https://www.facebook.com/jeffersonmouraamador
     github: https://github.com/jeffersonmourak/
     plus: https://plus.google.com/+JeffersonMourak/
+  - name: Moisés Abraão
+    photo: https://avatars2.githubusercontent.com/u/6723882?s=400&u=da7aad83a27fe6ebde6c7decbd258625efe387cf&v=4
+    desc: Front-end Developer, que faz de tudo e entusiasta do JavaScript.
+    facebook: https://www.facebook.com/moises.abraao.9
+    github: https://github.com/MoisesAbraao/
+    plus: 
 
 exclude: ['gruntfile.js', 'package.json', 'src', 'node_modules']
